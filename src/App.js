@@ -11,7 +11,7 @@ import Checkout from "./components/Checkout";
 import Login from "./components/Login";
 import { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
-import { auth } from "./Firebase";
+import { auth } from "./firebase";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
